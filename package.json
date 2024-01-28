@@ -2,14 +2,10 @@
     "name": "obfuscator-io",
     "version": "1.0.0",
     "description": "",
-    "main": "./index.js",
-  "engines" : { 
-    "npm" : ">=9.7.2",
-    "node" : ">=20.0.0"
-    },
+    "main": "index.js",
     "scripts": {
-    "start": "node index.js"
-  },
+        "test": "tsc && node dist/test.js"
+    },
     "author": "",
     "license": "ISC",
     "dependencies": {
